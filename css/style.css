@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-fluid{
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.col-12{
+    width: 100%;
+    padding: 15px;
+}
+
+.col-6{
+    width: 50%;
+    padding: 15px;
+}
+
+.col-3{
+    width: 25%;
+    padding: 15px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-none{
+    display: none;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+/* topbar section start  */
+
+.topbar{
+    padding: 0 30px;
+    border-bottom: 1px solid
+}
+
+.topbar .top-menu{
+    padding: 0 15px;
+}
+
+.topbar .top-menu a{
+    margin-right: 16px;
+}
+
+.topbar .icons{
+    padding: 0 15px;
+}
+
+.topbar .icons a{
+    margin-right: 16px;
+}
+
+.topbar .icons .fa-facebook-f:hover{
+    background-color: #2424fac0;
+    color: #fff;
+}
+
+/* topbar section end */
+/* header section start  */
+
+
+
+
+
+/* header section end */
+
